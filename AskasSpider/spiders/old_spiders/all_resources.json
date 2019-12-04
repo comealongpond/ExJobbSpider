@@ -1,0 +1,8402 @@
+[
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 1,
+  "method": "GET",
+  "time": "2018-03-13T10:20:23.946Z",
+  "url": "http://api3.cdsuperstore.se/"
+},
+{
+  "body": "",
+  "bodySize": 14699,
+  "contentType": "text/html; charset=iso-8859-1",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:23 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "p3p",
+      "value": "CP=\"Vi har ingen P3P policy\""
+    },
+    {
+      "name": "Set-Cookie",
+      "value": "IBUTA=0; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nIBUTB=0; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nid=0; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nSESS=1520936423zyGD134507213NlMf; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nVER_AD=0; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nMOMS=inkl%2E; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nVISADE=; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nSPRAK=SV; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nVALUTA=SEK; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nGEO=1520947223; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nARTGRP=; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "X-Mod-Pagespeed",
+      "value": "1.12.34.2-0"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "max-age=0, no-cache, s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/html; charset=iso-8859-1"
+    }
+  ],
+  "id": 1,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.042Z",
+  "url": "http://api3.cdsuperstore.se/"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 2,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.043Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_system.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 3,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.043Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_kassa1.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 4,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.044Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_sok1.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 5,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.044Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_varukorg1.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 6,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.045Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_menu3.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 7,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.046Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_ikoner1.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 8,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.046Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_theme.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 9,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.047Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_responsive.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 10,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.047Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/fontawesome/css/font-awesome.min.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 11,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.048Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/webfonts/ss-black-tie-regular.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 12,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.048Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/webfonts/ss-symbolicons-line.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 13,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.049Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/fancybox/jquery.fancybox.css?v=2.1.5"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 14,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.049Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/jquery/jquery.js"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 15,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.050Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/extra.js?v=5"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 16,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.050Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/skript.js"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 17,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.051Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIR_ibutik_8.11.0_Arbetsyta.js"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 18,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.051Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/owl-carousel/owl.carousel.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 19,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.052Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/owl-carousel/owl.theme.css"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 20,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.052Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/owl-carousel/owl.carousel.js"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/css,*/*;q=0.1"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 21,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.053Z",
+  "url": "https://fonts.googleapis.com/css?family=Lato:400,100,300,700"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 22,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.054Z",
+  "url": "https://connect.facebook.net/en_US/sdk.js"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 23,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.054Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/afterload.js?v=5"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 24,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.055Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/AIRvarukorg/jquery.AIRvarukorg.min.js"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 25,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.055Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/overlib.js"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 26,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.056Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/LSS_Sokning.js"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 27,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.056Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/fancybox/jquery.fancybox.js?v=2.1.5"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 28,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.057Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/jquery.lazy.min.js?v=1"
+},
+{
+  "contentType": "text/html; charset=iso-8859-1",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:23 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "p3p",
+      "value": "CP=\"Vi har ingen P3P policy\""
+    },
+    {
+      "name": "Set-Cookie",
+      "value": "IBUTA=0; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nIBUTB=0; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nid=0; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nSESS=1520936423zyGD134507213NlMf; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nVER_AD=0; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nMOMS=inkl%2E; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nVISADE=; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nSPRAK=SV; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nVALUTA=SEK; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nGEO=1520947223; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;\nARTGRP=; expires=Wed, 31-Dec-20 12:00:00 GMT; path=/;"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "X-Mod-Pagespeed",
+      "value": "1.12.34.2-0"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "max-age=0, no-cache, s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/html; charset=iso-8859-1"
+    }
+  ],
+  "id": 1,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.057Z",
+  "url": "http://api3.cdsuperstore.se/"
+},
+{
+  "body": "",
+  "bodySize": 4049,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"fd1-563addfb2dac8-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 2,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.059Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_system.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"fd1-563addfb2dac8-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 2,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.060Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_system.css"
+},
+{
+  "body": "",
+  "bodySize": 9265,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"7d39-563addfb37ed7-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 8,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.073Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_theme.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"7d39-563addfb37ed7-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 8,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.078Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_theme.css"
+},
+{
+  "body": "",
+  "bodySize": 3068,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"bfc-563addfb29861-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 4,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.084Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_sok1.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"bfc-563addfb29861-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 4,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.085Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_sok1.css"
+},
+{
+  "body": "",
+  "bodySize": 9992,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"46ca-563addfb1c18a-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 3,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.086Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_kassa1.css"
+},
+{
+  "body": "",
+  "bodySize": 3716,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"1ac4-563addfb34440-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 5,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.088Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_varukorg1.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"1ac4-563addfb34440-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 5,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.089Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_varukorg1.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"46ca-563addfb1c18a-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 3,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.090Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_kassa1.css"
+},
+{
+  "body": "",
+  "bodySize": 10752,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"2a00-563addfb284d9-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 6,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.091Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_menu3.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"2a00-563addfb284d9-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 6,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.092Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_menu3.css"
+},
+{
+  "body": "",
+  "bodySize": 5735,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"1667-563addfb1ae02-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 7,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.093Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_ikoner1.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"1667-563addfb1ae02-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=99"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 7,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.093Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_ikoner1.css"
+},
+{
+  "body": "",
+  "bodySize": 4188,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"105c-563addfb28ca9-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 9,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.094Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_responsive.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"105c-563addfb28ca9-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 9,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.094Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/air_responsive.css"
+},
+{
+  "body": "",
+  "bodySize": 11117,
+  "contentType": "application/x-javascript; charset=utf-8",
+  "headers": [
+    {
+      "name": "Access-Control-Expose-Headers",
+      "value": "X-FB-Content-MD5"
+    },
+    {
+      "name": "x-fb-content-md5",
+      "value": "7f836e15c35c0c5094f18fcaa3229c4a"
+    },
+    {
+      "name": "ETag",
+      "value": "\"7a43eae340654f5f39f0c8fa4f8de4cb\""
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/x-javascript; charset=utf-8"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Strict-Transport-Security",
+      "value": "max-age=31536000; preload; includeSubDomains"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "0"
+    },
+    {
+      "name": "X-Frame-Options",
+      "value": "DENY"
+    },
+    {
+      "name": "timing-allow-origin",
+      "value": "*"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public,max-age=1200,stale-while-revalidate=3600"
+    },
+    {
+      "name": "Expires",
+      "value": "Tue, 13 Mar 2018 10:33:26 GMT"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Content-MD5",
+      "value": "9IGHg8iZRPb0Le7IbjGLtw=="
+    },
+    {
+      "name": "X-FB-Debug",
+      "value": "vmClkftWtgPMyo5AI1/wAzViXu7JzKR6g/gZ6swfv94jDIOfCeV26N2TWExTivFFH3uTkBoLhW5nNR9Ze+sRXw=="
+    },
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Connection",
+      "value": "keep-alive"
+    }
+  ],
+  "id": 22,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.097Z",
+  "url": "https://connect.facebook.net/en_US/sdk.js"
+},
+{
+  "body": "",
+  "bodySize": 10191,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"7187-563addfb5e41c-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 10,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.098Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/fontawesome/css/font-awesome.min.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"7187-563addfb5e41c-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 10,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.101Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/fontawesome/css/font-awesome.min.css"
+},
+{
+  "body": "",
+  "bodySize": 4054,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:38 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3340-563addfc65ae0-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 11,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.104Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/webfonts/ss-black-tie-regular.css"
+},
+{
+  "body": "",
+  "bodySize": 3572,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:41 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"131f-563addff3c78e-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 13,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.106Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/fancybox/jquery.fancybox.css?v=2.1.5"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:41 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"131f-563addff3c78e-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 13,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.106Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/fancybox/jquery.fancybox.css?v=2.1.5"
+},
+{
+  "body": "",
+  "bodySize": 2748,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:38 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"87de-563addfc881a5-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 12,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.107Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/webfonts/ss-symbolicons-line.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:38 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3340-563addfc65ae0-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 11,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.109Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/webfonts/ss-black-tie-regular.css"
+},
+{
+  "body": "",
+  "bodySize": 3172,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:41 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"5822-563addfefa113-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=95"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 15,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.111Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/extra.js?v=5"
+},
+{
+  "body": "",
+  "bodySize": 3057,
+  "contentType": "text/css; charset=utf-8",
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "text/css; charset=utf-8"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Expires",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "private, max-age=86400"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Server",
+      "value": "ESF"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "X-Frame-Options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    },
+    {
+      "name": "Transfer-Encoding",
+      "value": "chunked"
+    }
+  ],
+  "id": 21,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.114Z",
+  "url": "https://fonts.googleapis.com/css?family=Lato:400,100,300,700"
+},
+{
+  "contentType": "text/css; charset=utf-8",
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "text/css; charset=utf-8"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Expires",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "private, max-age=86400"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Server",
+      "value": "ESF"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "X-Frame-Options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    },
+    {
+      "name": "Transfer-Encoding",
+      "value": "chunked"
+    }
+  ],
+  "id": 21,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.114Z",
+  "url": "https://fonts.googleapis.com/css?family=Lato:400,100,300,700"
+},
+{
+  "contentType": "application/x-javascript; charset=utf-8",
+  "headers": [
+    {
+      "name": "Access-Control-Expose-Headers",
+      "value": "X-FB-Content-MD5"
+    },
+    {
+      "name": "x-fb-content-md5",
+      "value": "7f836e15c35c0c5094f18fcaa3229c4a"
+    },
+    {
+      "name": "ETag",
+      "value": "\"7a43eae340654f5f39f0c8fa4f8de4cb\""
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/x-javascript; charset=utf-8"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Strict-Transport-Security",
+      "value": "max-age=31536000; preload; includeSubDomains"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "0"
+    },
+    {
+      "name": "X-Frame-Options",
+      "value": "DENY"
+    },
+    {
+      "name": "timing-allow-origin",
+      "value": "*"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public,max-age=1200,stale-while-revalidate=3600"
+    },
+    {
+      "name": "Expires",
+      "value": "Tue, 13 Mar 2018 10:33:26 GMT"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Content-MD5",
+      "value": "9IGHg8iZRPb0Le7IbjGLtw=="
+    },
+    {
+      "name": "X-FB-Debug",
+      "value": "vmClkftWtgPMyo5AI1/wAzViXu7JzKR6g/gZ6swfv94jDIOfCeV26N2TWExTivFFH3uTkBoLhW5nNR9Ze+sRXw=="
+    },
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Connection",
+      "value": "keep-alive"
+    }
+  ],
+  "id": 22,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.115Z",
+  "url": "https://connect.facebook.net/en_US/sdk.js"
+},
+{
+  "body": "",
+  "bodySize": 2052,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:41 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"16dc4-563addff6a203-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 14,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.117Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/jquery/jquery.js"
+},
+{
+  "body": "",
+  "bodySize": 2299,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3e0e-564241a71be41-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 16,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.119Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/skript.js"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:41 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"5822-563addfefa113-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=95"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 15,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.119Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/extra.js?v=5"
+},
+{
+  "body": "",
+  "bodySize": 1010,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:29:19 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3f2-56424118eee33-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 17,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.124Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIR_ibutik_8.11.0_Arbetsyta.js"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:29:19 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3f2-56424118eee33-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 17,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.124Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIR_ibutik_8.11.0_Arbetsyta.js"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3e0e-564241a71be41-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 16,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.125Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/skript.js"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:38 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"87de-563addfc881a5-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 12,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.126Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/webfonts/ss-symbolicons-line.css"
+},
+{
+  "body": "",
+  "bodySize": 1476,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"5c4-563ade00328fb-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 18,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.130Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/owl-carousel/owl.carousel.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"5c4-563ade00328fb-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 18,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.131Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/owl-carousel/owl.carousel.css"
+},
+{
+  "body": "",
+  "bodySize": 1665,
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"681-563ade003b59a-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=94"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 19,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.133Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/owl-carousel/owl.theme.css"
+},
+{
+  "contentType": "text/css",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"681-563ade003b59a-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=94"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/css"
+    }
+  ],
+  "id": 19,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.134Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/owl-carousel/owl.theme.css"
+},
+{
+  "body": "",
+  "bodySize": 3019,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:40 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"260a-563addfed89ee-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 23,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.140Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/afterload.js?v=5"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:40 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"260a-563addfed89ee-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 23,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.142Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/afterload.js?v=5"
+},
+{
+  "body": "",
+  "bodySize": 3070,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"ce3c-563ade0034c23-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 20,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.145Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/owl-carousel/owl.carousel.js"
+},
+{
+  "body": "",
+  "bodySize": 2417,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:41 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"78fc-563addff15a79-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 24,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.147Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/AIRvarukorg/jquery.AIRvarukorg.min.js"
+},
+{
+  "body": "",
+  "bodySize": 2663,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"bc8a-563ade00134fd-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 25,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.149Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/overlib.js"
+},
+{
+  "body": "",
+  "bodySize": 3154,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"15b1-563ade0010a05-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=93"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 26,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.156Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/LSS_Sokning.js"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"15b1-563ade0010a05-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=93"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 26,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.156Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/LSS_Sokning.js"
+},
+{
+  "body": "",
+  "bodySize": 2011,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:41 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"be42-563addff5e683-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=95"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 27,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.163Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/fancybox/jquery.fancybox.js?v=2.1.5"
+},
+{
+  "body": "",
+  "bodySize": 2053,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"12c2-563addffe3379-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=92"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 28,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.176Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/jquery.lazy.min.js?v=1"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"12c2-563addffe3379-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=92"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 28,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.177Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/jquery.lazy.min.js?v=1"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:41 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"78fc-563addff15a79-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 24,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.178Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/AIRvarukorg/jquery.AIRvarukorg.min.js"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"ce3c-563ade0034c23-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 20,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.182Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/owl-carousel/owl.carousel.js"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:42 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"bc8a-563ade00134fd-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 25,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.191Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/overlib.js"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:41 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"be42-563addff5e683-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=95"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 27,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.195Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/fancybox/jquery.fancybox.js?v=2.1.5"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:41 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"16dc4-563addff6a203-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=98"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 14,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.196Z",
+  "url": "http://api3.cdsuperstore.se/includes/script/jquery/jquery.js"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 29,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.283Z",
+  "url": "https://www.facebook.com/impression.php/f23875c42c/?lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 30,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.293Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_SV.gif"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 31,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.294Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_NO.gif"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 32,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.295Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_DK.gif"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 33,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.295Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_FI.gif"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 34,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.296Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_EN.gif"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 35,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.296Z",
+  "url": "http://api3.cdsuperstore.se/bilder/butik/cdsuperstore.png"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 36,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.297Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff-2600x700.jpg"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 37,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.297Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff-850x600.jpg"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 38,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.297Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff3-1300x600.jpg"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 39,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.298Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff4-1300x600.jpg"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 40,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.298Z",
+  "url": "http://api3.cdsuperstore.se/bilder/ibutik-a/_mellanrum.gif"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 41,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.299Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPHw3q5d0.woff"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 42,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.299Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwaPHw3q5d0N7w.woff"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 43,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.300Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AXC-sNiXg7Q.woff"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 44,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.300Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AUi-sNiXg7eU0.woff"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 45,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.301Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWCWtFCc.woff"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 46,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.301Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwWCWtFCfQ7A.woff"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 47,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.301Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPHw3q5d0.woff"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 48,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.302Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwaPHw3q5d0N7w.woff"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 49,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.303Z",
+  "url": "http://staticxx.facebook.com/connect/xd_arbiter/r/Ms1VZf1Vg1J.js?version=42#channel=fc8a2176c&origin=http%3A%2F%2Fapi3.cdsuperstore.se"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 50,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.304Z",
+  "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/Ms1VZf1Vg1J.js?version=42#channel=fc8a2176c&origin=http%3A%2F%2Fapi3.cdsuperstore.se"
+},
+{
+  "body": "",
+  "bodySize": 1006,
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3ee-564241a6fc65b\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "1006"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 31,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.482Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_NO.gif"
+},
+{
+  "body": "",
+  "bodySize": 1009,
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3f1-564241a6fc273\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "1009"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=94"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 33,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.483Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_FI.gif"
+},
+{
+  "body": "",
+  "bodySize": 583,
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"247-564241a6fc65b\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "583"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=95"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 32,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.483Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_DK.gif"
+},
+{
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3ee-564241a6fc65b\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "1006"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 31,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.483Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_NO.gif"
+},
+{
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3f1-564241a6fc273\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "1009"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=94"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 33,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.483Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_FI.gif"
+},
+{
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"247-564241a6fc65b\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "583"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=95"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 32,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.484Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_DK.gif"
+},
+{
+  "body": "",
+  "bodySize": 5708,
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:29:21 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"164c-563ade25c92da\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "5708"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 35,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.484Z",
+  "url": "http://api3.cdsuperstore.se/bilder/butik/cdsuperstore.png"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 51,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.484Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/fontawesome/fonts/fontawesome-webfont.woff?v=4.6.3"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 52,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.485Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/webfonts/ss-black-tie-regular.woff"
+},
+{
+  "body": "",
+  "bodySize": 1008,
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3f0-564241a6fc65b\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "1008"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=91"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 30,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.486Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_SV.gif"
+},
+{
+  "body": "",
+  "bodySize": 1035,
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"40b-564241a6fc273\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "1035"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=95"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 34,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.487Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_EN.gif"
+},
+{
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:29:21 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"164c-563ade25c92da\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "5708"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=97"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 35,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.487Z",
+  "url": "http://api3.cdsuperstore.se/bilder/butik/cdsuperstore.png"
+},
+{
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"3f0-564241a6fc65b\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "1008"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=91"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 30,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.487Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_SV.gif"
+},
+{
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"40b-564241a6fc273\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "1035"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=95"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 34,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.487Z",
+  "url": "http://api3.cdsuperstore.se/includes/admin/tema/Askas/bilder/flaggor/flagga_EN.gif"
+},
+{
+  "body": "",
+  "bodySize": 54706,
+  "contentType": "image/jpeg",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:44 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"237d3-563ade022a753\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "145363"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=95"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/jpeg"
+    }
+  ],
+  "id": 36,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.488Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff-2600x700.jpg"
+},
+{
+  "body": "",
+  "bodySize": 54707,
+  "contentType": "image/jpeg",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:45 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"128a6-563ade02c6f2f\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "75942"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=93"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/jpeg"
+    }
+  ],
+  "id": 38,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.489Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff3-1300x600.jpg"
+},
+{
+  "body": "",
+  "bodySize": 42954,
+  "contentType": "text/html; charset=utf-8",
+  "headers": [
+    {
+      "name": "Expires",
+      "value": "Tue, 12 Mar 2019 18:27:08 GMT"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public,max-age=31536000,immutable"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "0"
+    },
+    {
+      "name": "Strict-Transport-Security",
+      "value": "max-age=15552000; preload"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/html; charset=utf-8"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "X-FB-Debug",
+      "value": "H+Mh6wJHsE1n0xfms2qe7JSFNBQhiWil2BlEzY6YsKdaNlKIAEBpqQNgnqbLlt0GWARY1br8Yp/D6P6wLnMVyQ=="
+    },
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Connection",
+      "value": "keep-alive"
+    }
+  ],
+  "id": 49,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.489Z",
+  "url": "http://staticxx.facebook.com/connect/xd_arbiter/r/Ms1VZf1Vg1J.js?version=42#channel=fc8a2176c&origin=http%3A%2F%2Fapi3.cdsuperstore.se"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 53,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.572Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/jquery.scrollTo-1.4.2-min.js"
+},
+{
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "X-Requested-With",
+      "value": "XMLHttpRequest"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    }
+  ],
+  "id": 54,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.575Z",
+  "url": "http://api3.cdsuperstore.se/cgi-bin/ibutik/API.fcgi?funk=varukorg&retur=xml&random=0.22664041444659233"
+},
+{
+  "body": "",
+  "bodySize": 50783,
+  "contentType": "image/jpeg",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:44 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"c65f-563ade020b73d\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "50783"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=94"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/jpeg"
+    }
+  ],
+  "id": 37,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.658Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff-850x600.jpg"
+},
+{
+  "contentType": "text/html; charset=utf-8",
+  "headers": [
+    {
+      "name": "Expires",
+      "value": "Tue, 12 Mar 2019 18:27:08 GMT"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public,max-age=31536000,immutable"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "0"
+    },
+    {
+      "name": "Strict-Transport-Security",
+      "value": "max-age=15552000; preload"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/html; charset=utf-8"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "X-FB-Debug",
+      "value": "H+Mh6wJHsE1n0xfms2qe7JSFNBQhiWil2BlEzY6YsKdaNlKIAEBpqQNgnqbLlt0GWARY1br8Yp/D6P6wLnMVyQ=="
+    },
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Connection",
+      "value": "keep-alive"
+    }
+  ],
+  "id": 49,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.659Z",
+  "url": "http://staticxx.facebook.com/connect/xd_arbiter/r/Ms1VZf1Vg1J.js?version=42#channel=fc8a2176c&origin=http%3A%2F%2Fapi3.cdsuperstore.se"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 55,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.659Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-pil-ned.png"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 56,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.660Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-pil-upp.png"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 57,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.660Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-add.png"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 58,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.661Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-rem.png"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 59,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.661Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-sub.png"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 60,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.662Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-uppdaterar.gif"
+},
+{
+  "contentType": "image/jpeg",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:44 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"c65f-563ade020b73d\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "50783"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=94"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/jpeg"
+    }
+  ],
+  "id": 37,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.662Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff-850x600.jpg"
+},
+{
+  "body": "",
+  "bodySize": 43,
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "content-security-policy",
+      "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self';"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "0"
+    },
+    {
+      "name": "Access-Control-Allow-Credentials",
+      "value": "true"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "https://www.facebook.com"
+    },
+    {
+      "name": "Access-Control-Expose-Headers",
+      "value": "X-FB-Debug, X-Loader-Length"
+    },
+    {
+      "name": "Pragma",
+      "value": "no-cache"
+    },
+    {
+      "name": "Access-Control-Allow-Methods",
+      "value": "OPTIONS"
+    },
+    {
+      "name": "Strict-Transport-Security",
+      "value": "max-age=15552000; preload"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "private, no-cache, no-store, must-revalidate"
+    },
+    {
+      "name": "Vary",
+      "value": "Origin, Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "X-FB-Debug",
+      "value": "jU6sesf08qeS7LIcB93tmhNlXV0ZzdGTyd0mffg8ZBBKKjjiwniJdSM7toorY0b499P/WTF7wn3wJegaye4vZw=="
+    },
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Transfer-Encoding",
+      "value": "chunked"
+    },
+    {
+      "name": "Connection",
+      "value": "keep-alive"
+    }
+  ],
+  "id": 29,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.666Z",
+  "url": "https://www.facebook.com/impression.php/f23875c42c/?lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D"
+},
+{
+  "body": "",
+  "bodySize": 25019,
+  "contentType": "image/jpeg",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:44 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"61bb-563ade0222284\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "25019"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=90"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/jpeg"
+    }
+  ],
+  "id": 39,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.667Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff4-1300x600.jpg"
+},
+{
+  "body": "",
+  "bodySize": 43,
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:29:22 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"2b-563ade261885c\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "43"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=94"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 40,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.668Z",
+  "url": "http://api3.cdsuperstore.se/bilder/ibutik-a/_mellanrum.gif"
+},
+{
+  "body": "",
+  "bodySize": 69176,
+  "contentType": "application/font-woff",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"1612c-563addfbf36c9\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "90412"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/font-woff"
+    }
+  ],
+  "id": 51,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.669Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/fontawesome/fonts/fontawesome-webfont.woff?v=4.6.3"
+},
+{
+  "body": "",
+  "bodySize": 28316,
+  "contentType": "application/font-woff",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:38 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"6e9c-563addfc86265\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "28316"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=93"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/font-woff"
+    }
+  ],
+  "id": 52,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.670Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/webfonts/ss-black-tie-regular.woff"
+},
+{
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "content-security-policy",
+      "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self';"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "0"
+    },
+    {
+      "name": "Access-Control-Allow-Credentials",
+      "value": "true"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "https://www.facebook.com"
+    },
+    {
+      "name": "Access-Control-Expose-Headers",
+      "value": "X-FB-Debug, X-Loader-Length"
+    },
+    {
+      "name": "Pragma",
+      "value": "no-cache"
+    },
+    {
+      "name": "Access-Control-Allow-Methods",
+      "value": "OPTIONS"
+    },
+    {
+      "name": "Strict-Transport-Security",
+      "value": "max-age=15552000; preload"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "private, no-cache, no-store, must-revalidate"
+    },
+    {
+      "name": "Vary",
+      "value": "Origin, Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "X-FB-Debug",
+      "value": "jU6sesf08qeS7LIcB93tmhNlXV0ZzdGTyd0mffg8ZBBKKjjiwniJdSM7toorY0b499P/WTF7wn3wJegaye4vZw=="
+    },
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Transfer-Encoding",
+      "value": "chunked"
+    },
+    {
+      "name": "Connection",
+      "value": "keep-alive"
+    }
+  ],
+  "id": 29,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.670Z",
+  "url": "https://www.facebook.com/impression.php/f23875c42c/?lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D"
+},
+{
+  "contentType": "image/jpeg",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:45 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"128a6-563ade02c6f2f\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "75942"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=93"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/jpeg"
+    }
+  ],
+  "id": 38,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.671Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff3-1300x600.jpg"
+},
+{
+  "contentType": "image/jpeg",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:44 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"61bb-563ade0222284\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "25019"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=90"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/jpeg"
+    }
+  ],
+  "id": 39,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.671Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff4-1300x600.jpg"
+},
+{
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:29:22 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"2b-563ade261885c\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "43"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=94"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 40,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.671Z",
+  "url": "http://api3.cdsuperstore.se/bilder/ibutik-a/_mellanrum.gif"
+},
+{
+  "contentType": "application/font-woff",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:38 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"6e9c-563addfc86265\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "28316"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=93"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/font-woff"
+    }
+  ],
+  "id": 52,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.671Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/webfonts/ss-black-tie-regular.woff"
+},
+{
+  "body": "",
+  "bodySize": 17388,
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "17388"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 00:00:48 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 00:00:48 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:51 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2801976"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 41,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.692Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPHw3q5d0.woff"
+},
+{
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "17388"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 00:00:48 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 00:00:48 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:51 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2801976"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 41,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.692Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPHw3q5d0.woff"
+},
+{
+  "body": "",
+  "bodySize": 3604,
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "3604"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 01:12:46 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 01:12:46 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:22 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2797658"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 42,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.692Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwaPHw3q5d0N7w.woff"
+},
+{
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "3604"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 01:12:46 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 01:12:46 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:22 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2797658"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 42,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.693Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwaPHw3q5d0N7w.woff"
+},
+{
+  "body": "",
+  "bodySize": 16150,
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "16696"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 00:07:26 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 00:07:26 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:22:56 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2801578"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 43,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.693Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AXC-sNiXg7Q.woff"
+},
+{
+  "body": "",
+  "bodySize": 2329,
+  "contentType": "text/html; charset=utf-8",
+  "headers": [
+    {
+      "name": "Expires",
+      "value": "Tue, 12 Mar 2019 18:27:08 GMT"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public,max-age=31536000,immutable"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "0"
+    },
+    {
+      "name": "Strict-Transport-Security",
+      "value": "max-age=15552000; preload"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/html; charset=utf-8"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "X-FB-Debug",
+      "value": "H+Mh6wJHsE1n0xfms2qe7JSFNBQhiWil2BlEzY6YsKdaNlKIAEBpqQNgnqbLlt0GWARY1br8Yp/D6P6wLnMVyQ=="
+    },
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Connection",
+      "value": "keep-alive"
+    }
+  ],
+  "id": 50,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.693Z",
+  "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/Ms1VZf1Vg1J.js?version=42#channel=fc8a2176c&origin=http%3A%2F%2Fapi3.cdsuperstore.se"
+},
+{
+  "body": "",
+  "bodySize": 17336,
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "17336"
+    },
+    {
+      "name": "Date",
+      "value": "Thu, 08 Feb 2018 20:49:43 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Fri, 08 Feb 2019 20:49:43 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:18 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2813441"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 45,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.707Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWCWtFCc.woff"
+},
+{
+  "body": "",
+  "bodySize": 315,
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:09 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"13b-50cc5a459ea40\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "315"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=92"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 55,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.708Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-pil-ned.png"
+},
+{
+  "body": "",
+  "bodySize": 3492,
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "3492"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 07:14:38 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 07:14:38 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:51 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2775946"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 44,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.721Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AUi-sNiXg7eU0.woff"
+},
+{
+  "body": "",
+  "bodySize": 2444,
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"98c-564241a71be41-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=89"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 53,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.721Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/jquery.scrollTo-1.4.2-min.js"
+},
+{
+  "body": "",
+  "bodySize": 295,
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:09 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"127-50cc5a459ea40\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "295"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=93"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 56,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.721Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-pil-upp.png"
+},
+{
+  "body": "",
+  "bodySize": 3612,
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "3612"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 00:25:06 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 00:25:06 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:23 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2800518"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 46,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.722Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwWCWtFCfQ7A.woff"
+},
+{
+  "contentType": "text/html; charset=utf-8",
+  "headers": [
+    {
+      "name": "Expires",
+      "value": "Tue, 12 Mar 2019 18:27:08 GMT"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public,max-age=31536000,immutable"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "0"
+    },
+    {
+      "name": "Strict-Transport-Security",
+      "value": "max-age=15552000; preload"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/html; charset=utf-8"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "X-FB-Debug",
+      "value": "H+Mh6wJHsE1n0xfms2qe7JSFNBQhiWil2BlEzY6YsKdaNlKIAEBpqQNgnqbLlt0GWARY1br8Yp/D6P6wLnMVyQ=="
+    },
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Connection",
+      "value": "keep-alive"
+    }
+  ],
+  "id": 50,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.722Z",
+  "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/Ms1VZf1Vg1J.js?version=42#channel=fc8a2176c&origin=http%3A%2F%2Fapi3.cdsuperstore.se"
+},
+{
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "17336"
+    },
+    {
+      "name": "Date",
+      "value": "Thu, 08 Feb 2018 20:49:43 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Fri, 08 Feb 2019 20:49:43 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:18 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2813441"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 45,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.722Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWCWtFCc.woff"
+},
+{
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:09 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"13b-50cc5a459ea40\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "315"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=92"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 55,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.722Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-pil-ned.png"
+},
+{
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "16696"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 00:07:26 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 00:07:26 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:22:56 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2801578"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 43,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.723Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AXC-sNiXg7Q.woff"
+},
+{
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "3492"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 07:14:38 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 07:14:38 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:51 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2775946"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 44,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.723Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AUi-sNiXg7eU0.woff"
+},
+{
+  "contentType": "application/javascript",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Thu, 01 Feb 2018 10:31:48 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"98c-564241a71be41-gzip\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=89"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/javascript"
+    }
+  ],
+  "id": 53,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.723Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/jquery.scrollTo-1.4.2-min.js"
+},
+{
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:09 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"127-50cc5a459ea40\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "295"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=93"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 56,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.723Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-pil-upp.png"
+},
+{
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "3612"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 00:25:06 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 00:25:06 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:23 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2800518"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 46,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.724Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwWCWtFCfQ7A.woff"
+},
+{
+  "body": "",
+  "bodySize": 17508,
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "17508"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 00:00:14 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 00:00:14 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:59 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2802010"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 47,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.724Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPHw3q5d0.woff"
+},
+{
+  "body": "",
+  "bodySize": 202,
+  "contentType": "text/xml; charset=ISO-8859-1",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Expires",
+      "value": "-1"
+    },
+    {
+      "name": "Pragma",
+      "value": "no-cache"
+    },
+    {
+      "name": "p3p",
+      "value": "CP=\"Vi har ingen P3P policy\""
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "no-cache, s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=92"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/xml; charset=ISO-8859-1"
+    }
+  ],
+  "id": 54,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.724Z",
+  "url": "http://api3.cdsuperstore.se/cgi-bin/ibutik/API.fcgi?funk=varukorg&retur=xml&random=0.22664041444659233"
+},
+{
+  "contentType": "application/font-woff",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:37 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"1612c-563addfbf36c9\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "90412"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=96"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/font-woff"
+    }
+  ],
+  "id": 51,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.725Z",
+  "url": "http://api3.cdsuperstore.se/includes/css/fontawesome/fonts/fontawesome-webfont.woff?v=4.6.3"
+},
+{
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "17508"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 00:00:14 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 00:00:14 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:59 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2802010"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 47,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.725Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPHw3q5d0.woff"
+},
+{
+  "contentType": "text/xml; charset=ISO-8859-1",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Expires",
+      "value": "-1"
+    },
+    {
+      "name": "Pragma",
+      "value": "no-cache"
+    },
+    {
+      "name": "p3p",
+      "value": "CP=\"Vi har ingen P3P policy\""
+    },
+    {
+      "name": "Vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "Content-Encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "no-cache, s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=92"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "text/xml; charset=ISO-8859-1"
+    }
+  ],
+  "id": 54,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.725Z",
+  "url": "http://api3.cdsuperstore.se/cgi-bin/ibutik/API.fcgi?funk=varukorg&retur=xml&random=0.22664041444659233"
+},
+{
+  "contentType": "image/jpeg",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 26 Jan 2018 13:28:44 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"237d3-563ade022a753\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "145363"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=95"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/jpeg"
+    }
+  ],
+  "id": 36,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.740Z",
+  "url": "http://api3.cdsuperstore.se/dokument/bibliotek/Image/startsidan/frontpuff-2600x700.jpg"
+},
+{
+  "body": "",
+  "bodySize": 3636,
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "3636"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 01:12:46 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 01:12:46 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:58 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2797658"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 48,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.740Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwaPHw3q5d0N7w.woff"
+},
+{
+  "contentType": "font/woff",
+  "headers": [
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Type",
+      "value": "font/woff"
+    },
+    {
+      "name": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "3636"
+    },
+    {
+      "name": "Date",
+      "value": "Fri, 09 Feb 2018 01:12:46 GMT"
+    },
+    {
+      "name": "Expires",
+      "value": "Sat, 09 Feb 2019 01:12:46 GMT"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Wed, 11 Oct 2017 18:23:58 GMT"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "value": "nosniff"
+    },
+    {
+      "name": "Server",
+      "value": "sffe"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "public, max-age=31536000"
+    },
+    {
+      "name": "Age",
+      "value": "2797658"
+    },
+    {
+      "name": "Alt-Svc",
+      "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,35\""
+    }
+  ],
+  "id": 48,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.741Z",
+  "url": "https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwaPHw3q5d0N7w.woff"
+},
+{
+  "body": "",
+  "bodySize": 282,
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:09 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"11a-50cc5a459ea40\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "282"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=88"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 57,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.757Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-add.png"
+},
+{
+  "body": "",
+  "bodySize": 267,
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:09 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"10b-50cc5a459ea40\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "267"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=92"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 59,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.758Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-sub.png"
+},
+{
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:09 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"11a-50cc5a459ea40\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "282"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=88"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 57,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.758Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-add.png"
+},
+{
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:09 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"10b-50cc5a459ea40\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "267"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=92"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 59,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.758Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-sub.png"
+},
+{
+  "body": "",
+  "bodySize": 443,
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:09 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"1bb-50cc5a459ea40\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "443"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=91"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 58,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.759Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-rem.png"
+},
+{
+  "contentType": "image/png",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:09 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"1bb-50cc5a459ea40\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "443"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=91"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/png"
+    }
+  ],
+  "id": 58,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.759Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-rem.png"
+},
+{
+  "body": "",
+  "bodySize": 847,
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:10 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"34f-50cc5a4692c80\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "847"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=94"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 60,
+  "redirectURL": null,
+  "stage": "start",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.759Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-uppdaterar.gif"
+},
+{
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Last-Modified",
+      "value": "Fri, 16 Jan 2015 14:18:10 GMT"
+    },
+    {
+      "name": "ETag",
+      "value": "\"34f-50cc5a4692c80\""
+    },
+    {
+      "name": "Accept-Ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "Content-Length",
+      "value": "847"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "s-maxage=10"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=94"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    },
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    }
+  ],
+  "id": 60,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 200,
+  "statusText": "OK",
+  "time": "2018-03-13T10:20:24.759Z",
+  "url": "http://api3.cdsuperstore.se/includes/AIRvarukorg/kundvagn-uppdaterar.gif"
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    }
+  ],
+  "id": 61,
+  "method": "GET",
+  "time": "2018-03-13T10:20:24.761Z",
+  "url": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "Origin",
+      "value": "http://api3.cdsuperstore.se"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "51"
+    }
+  ],
+  "id": 62,
+  "method": "POST",
+  "postData": "oh=nXzXivl0t7&n=kCdNgjLIBuQ&ci=1717514896,745233438",
+  "time": "2018-03-13T10:20:24.763Z",
+  "url": "http://api3.cdsuperstore.se/mod_pagespeed_beacon?url=http%3A%2F%2Fapi3.cdsuperstore.se%2F"
+},
+{
+  "body": "",
+  "bodySize": 43,
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    },
+    {
+      "name": "Content-Length",
+      "value": "43"
+    }
+  ],
+  "id": 61,
+  "redirectURL": null,
+  "stage": "start",
+  "status": null,
+  "statusText": null,
+  "time": "2018-03-13T10:20:24.764Z",
+  "url": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+},
+{
+  "contentType": "image/gif",
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "image/gif"
+    },
+    {
+      "name": "Content-Length",
+      "value": "43"
+    }
+  ],
+  "id": 61,
+  "redirectURL": null,
+  "stage": "end",
+  "status": null,
+  "statusText": null,
+  "time": "2018-03-13T10:20:24.764Z",
+  "url": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+},
+{
+  "headers": [
+    {
+      "name": "Referer",
+      "value": "http://api3.cdsuperstore.se/"
+    },
+    {
+      "name": "Origin",
+      "value": "http://api3.cdsuperstore.se"
+    },
+    {
+      "name": "User-Agent",
+      "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"
+    },
+    {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded"
+    },
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Content-Length",
+      "value": "51"
+    }
+  ],
+  "id": 63,
+  "method": "POST",
+  "postData": "oh=nXzXivl0t7&n=kCdNgjLIBuQ&ci=745233438,1717514896",
+  "time": "2018-03-13T10:20:24.766Z",
+  "url": "http://api3.cdsuperstore.se/mod_pagespeed_beacon?url=http%3A%2F%2Fapi3.cdsuperstore.se%2F"
+},
+{
+  "contentType": null,
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "max-age=0, no-cache"
+    },
+    {
+      "name": "Content-Length",
+      "value": "0"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=87"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    }
+  ],
+  "id": 62,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 204,
+  "statusText": "No Content",
+  "time": "2018-03-13T10:20:24.826Z",
+  "url": "http://api3.cdsuperstore.se/mod_pagespeed_beacon?url=http%3A%2F%2Fapi3.cdsuperstore.se%2F"
+},
+{
+  "contentType": null,
+  "headers": [
+    {
+      "name": "Date",
+      "value": "Tue, 13 Mar 2018 10:20:24 GMT"
+    },
+    {
+      "name": "Server",
+      "value": "Apache/2.4.10 (Debian)"
+    },
+    {
+      "name": "Cache-Control",
+      "value": "max-age=0, no-cache"
+    },
+    {
+      "name": "Content-Length",
+      "value": "0"
+    },
+    {
+      "name": "Keep-Alive",
+      "value": "timeout=5, max=93"
+    },
+    {
+      "name": "Connection",
+      "value": "Keep-Alive"
+    }
+  ],
+  "id": 63,
+  "redirectURL": null,
+  "stage": "end",
+  "status": 204,
+  "statusText": "No Content",
+  "time": "2018-03-13T10:20:24.828Z",
+  "url": "http://api3.cdsuperstore.se/mod_pagespeed_beacon?url=http%3A%2F%2Fapi3.cdsuperstore.se%2F"
+},
+{"failsafe" : "hah"}]

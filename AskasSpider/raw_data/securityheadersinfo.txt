@@ -1,0 +1,82 @@
+
+
+
+
+SECURITY HEADER FIELDS MORE INFORMATION
+
+
+
+COOKIES:
+	Secure - This flag means that the cookie should not be
+			 sent over a connection without TLS. That means
+			 that the cookie will only be sent if HTTPS is used.
+			 For instance if a user goes to http://smth.com and gets
+			 redirected to https://smth.com, cookies will not be sent in 
+			 the initial request which they would have been without this
+			 flag being set.
+
+			 see -> https://stackoverflow.com/questions/13729749/how-does-cookie-secure-flag-work
+
+	HttpOnly - This flag means that the cookie is only reachable
+			   over HTTP. That means that the cookie can not be extracted
+			   with for instance javascript. Mitigates cookie theft.
+
+			   see -> https://www.owasp.org/index.php/HttpOnly
+
+PUBLICK-KEY-PINS:
+	This field is problematic all together. 
+
+	see -> https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/he9tr7p3rZ8/eNMwKPmUBAAJ
+
+X-CONTENT-TYPE-OPTIONS:
+	This field is essentially a way to opt-out of MIME type sniffing.
+	The only valid option for this field is 'nosniff'
+
+	see -> https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
+
+X-XSS-PROTECTION:
+	This field, supported by Chrome, Internet Explorer and Safari, stops pages
+	from loading when they detect a reflected cross site scripting attack.
+	The safest option for this field is '1; mode=block'
+
+	see -> https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
+
+X-FRAME-OPTIONS:
+	This field is used to declare whether the page is allowed to be rendered 
+	in a <frame>, <iframe> or <object> which could be used to execute a clickjacking attack.
+	The safest option is 'DENY' which simply blocks any attempt to load it in a frame.
+	The most usable, and still safe, option is 'SAMEORIGIN' which allows frames from the same page.
+
+	see -> https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
+
+SERVER:
+	This field is used to indicate what software the server is running. 
+	This is a security risk because it leaks information about the server which makes 
+	it easier to find known vulnerabilities specific to that software. 
+	In general, the more specific the definition of the software is, the higher the risk.
+
+	see -> https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Server
+		   https://www.ietf.org/rfc/rfc2616.txt (section 14.38)
+		   https://security.stackexchange.com/questions/23256/what-is-the-http-server-response-header-field-used-for
+
+REFERER-POLICY:
+	This field tells the browser how it should handle referers in requests.
+
+	see -> https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
+
+CONTENT-SECURITY-POLICY:
+	This field aims to reduce the risk of XSS attacks in modern browsers by
+	letting the server tell the client where it expects to load resources from.
+	It can contain a multitude of different values telling the client where it 
+	expects to load scripts, fonts, style sheets and images from.
+	This is a complicated field and is hard to make a recommendation for but
+	generally loading resources from 'self' is a good idea.
+
+	see -> https://www.w3.org/TR/CSP2/
+
+STRICT-TRANSPORT-SECURITY:
+	This field is used to tell the client to only communicate with the server over HTTPS.
+	This might be a privacy concern (https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet)
+
+	see -> https://www.w3.org/TR/CSP2/
+

@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+	<title>Spiderino</title>
+
+	<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+
+	<script src="../static/js/jquery-3.3.1.min.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+	<script src="../static/js/main.js"></script>
+
+	<meta http-equiv="Cache-control" content="no-cache">
+</head>
+
+<body>
+
+	<script>
+		/*
+		//Force reload -- important if coming here through back button
+		window.addEventListener( "pageshow", function ( event ) {
+		  var historyTraversal = event.persisted || ( typeof window.performance != "undefined" && window.performance.navigation.type === 2 );
+		  if ( historyTraversal ) {
+		    // Handle page restore.
+		    window.location.reload();
+		  }
+		});*/
+	</script>
+<div id="fullscreen-bg"></div>
+{% if errormsg is defined %}
+	<div class="alert alert-danger">
+  		<strong>Error!</strong> {{errormsg}} <a href="/" class="btn btn-md btn-default">OK</a>
+	</div>
+{% endif %}
+
+<div class="container" id="main-container">
+
+	<div class="jumbotron">
+		<h1 class="display-3"><a href="http://localhost:5000">Askås spider</a></h1>
+		<p class="lead">Askås Spider a web crawler that will go through a website searching for GDPR related errors.</p>
+		<hr class="my-4">
+		<p>There are three ways to run the spider:</p>
+		<ul>
+			<li>Quickscan: The quickest possible way to run the program. Gives the least information.</li>
+			<li>FullScan: The default way to run the program. Gives the most information.</li>
+			<li>AdvancedScan: Customize what areas will be analyzed. Can give as little or as much information as you want.</li>
+		</ul>
+		<hr class="my-4">
+	  
+	 	<div class="row">
+	 		<div class="col-12" style="text-align: right">
+	 			<!--<a href="#">
+					<img src="../static/images/github-logo.png" alt="Github Logo" width="24px" height="auto"/> 
+					Source code on Github
+				</a>-->
+				<a href="/pp">
+					<img src="../static/images/img_icon.png" alt="Github Logo" width="24px" height="auto"/> 
+					Bilder
+				</a>
+	 		</div>
+		</div>
+	</div>
+
+
+	<button class="tablink" onclick="switchTab('quickscan-tab', this, '#333')" id="quickOpen">QuickScan</button>
+	<button class="tablink" onclick="switchTab('default-tab', this, '#333')" id="defaultOpen">FullScan</button>
+	<button class="tablink" onclick="switchTab('advanced-tab', this, '#333')">AdvancedScan</button>
+
+	<!-- Get advanced tab template -->
+	{% include 'advanced_tab.html' %}
+
+	<!-- Get default tab template -->
+	{% include 'default_tab.html' %}
+
+	<!-- Get quickscan tab template -->
+	{% include 'quick_tab.html' %}
+
+</div>
+
+
+
+<!--
+<div id="loader_container">
+	<div class="dot" id="top-left"></div>
+	<div class="dot" id="mid-left"></div>
+	<div class="dot" id="bot-left"></div>
+
+	<div class="dot" id="top-mid"></div>
+	<div class="dot" id="bot-mid"></div>
+
+	<div class="dot" id="top-right"></div>
+	<div class="dot" id="mid-right"></div>
+	<div class="dot" id="bot-right"></div>
+
+	<div id="loader-text">Spider Running</div>
+</div>
+-->
+<!-- push the footer down a little bit -->
+<div style="height: 20%"></div>
+
+
+<div id="footer">
+	<p> Put some copyright or smth </p>
+	<p> and maybe some other stuff like a <a href="#">link</a></p>
+</div>
+
+</body>
+
+</html>

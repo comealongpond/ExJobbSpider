@@ -1,0 +1,61 @@
+<!-- DEFAULT TAB -->
+<div id="default-tab" class="tabcontent">
+	<form action="{{ url_for('run_default') }}" method="POST" id="default_form">
+
+		<h3>FullScan Configuration</h3>
+		<hr class="my-4">
+
+
+		<h5>Required:</h5>
+		<hr class="my-4">
+
+	 	<div class="form-group row">
+			<label for="url" class="col-4 col-form-label">Url</label>
+			<div class="col-sm-8 col-md-7 col-lg-6">
+				<input class="form-control" type="text" id="url" name="url" placeholder="http://www.somedomain.com" required>
+			</div>
+		</div>
+
+
+
+		<hr class="my-4">
+		<h5>Optional:</h5>
+		<hr class="my-4">
+
+		<div ng-app>
+			<div class="form-check row col-12">
+				<input class="form-check-input" type="checkbox" value="et-ds" id="ExtraThorough-ds" name="ExtraThorough-ds" ng-true-value="Y" ng-false-value="N" ng-model="ExtraThoroughCheck">
+				<label class="form-check-label" for="ExtraThorough-ds">
+					Extra thorough scan
+				</label>
+			</div>
+			<div class="row col-12" ng-show="ExtraThoroughCheck == 'Y'">
+				<div class="col-2"></div>
+				<div class="alert alert-warning col-8">
+			  		<strong>Warning: </strong> This can potentially create fake orders, register accounts, etc.
+				</div>
+				<div class="col-2"></div>
+			</div>
+		</div>
+
+		<hr class="my-4">
+		<div class="form-group row">
+			<label for="http-user-ds" class="col-4 col-form-label">HTTP AUTH username</label>
+			<div class="col-sm-8 col-md-7 col-lg-6">
+				<input class="form-control" type="text" id="http-user-ds" name="http-user-ds" placeholder="administrator">
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<label for="http-pass-ds" class="col-4 col-form-label">HTTP AUTH password</label>
+			<div class="col-sm-8 col-md-7 col-lg-6">
+				<input class="form-control" type="password" id="http-pass-ds" name="http-pass-ds" placeholder="root">
+			</div>
+		</div>
+
+
+
+		<button type="submit" class="btn btn-success btn-lg col-12" id="default_submit_btn">Run FullScan</button>
+	</form>
+</div>
+<!-- /DEFAULT TAB -->

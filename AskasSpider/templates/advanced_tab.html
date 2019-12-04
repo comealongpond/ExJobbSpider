@@ -1,0 +1,228 @@
+<script>
+	$(document).on('submit', 'form#adv-form', function(event) {
+		if($('div.must-select-atleast-one :checkbox:checked').length > 0) return;
+		else
+		{
+			$("#hidden-errormsg-for-checkboxes").show();
+			event.preventDefault();
+		}
+	});
+	$(document).on('click', 'div#toggle-all', function(event) {
+		if($('div.must-select-atleast-one :checkbox:checked').length > 0) 
+		{
+			$('div.must-select-atleast-one :checkbox').prop('checked', false);
+		}
+		else
+		{
+			$('div.must-select-atleast-one :checkbox').prop('checked', true);
+		}
+	});
+</script>
+
+
+<!-- ADVANCED TAB -->
+<div id="advanced-tab" class="tabcontent">
+
+	<form action="{{ url_for('run_advanced') }}" method="POST" id="adv-form">
+
+		<h3>AdvancedScan Configuration</h3>
+		<hr class="my-4">
+
+		<h5>Tasks:</h5>
+		<hr class="my-4">
+
+		<div class="must-select-atleast-one">
+			<div class="form-group row">
+				<div class="checkbox col-4">
+			        <label>
+			            <input id="post_forms" name="post_forms" type="checkbox" /> Post Forms
+			        </label>
+				</div>
+				<div class="checkbox col-4">
+					<label>
+						<input id="scan_for_cookies" name="scan_for_cookies" type="checkbox" /> Scan for Cookies
+					</label>
+				</div>
+				<div class="checkbox col-4">
+					<label>
+						<input id="check_security_headers" name="check_security_headers" type="checkbox" /> Check Security Headers
+					</label>
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="checkbox col-4">
+			        <label>
+			            <input id="check_https" name="check_https" type="checkbox" /> Check HTTP/HTTPS
+			        </label>
+				</div>
+				<div class="checkbox col-4">
+					<label>
+						<input id="check_prechecked_boxes" name="check_prechecked_boxes" type="checkbox" /> Scan Checkboxes
+					</label>
+				</div>
+				<div class="checkbox col-4">
+					<label>
+						<input id="scan_thirdparty_requests" name="scan_thirdparty_requests" type="checkbox" /> Scan Third Party Requests
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="hidden-errormsg-for-checkboxes" style="display: none">
+			<div class="alert alert-danger">You must select atleast one of the above...</div>
+		</div>
+
+		<div class="row">
+			<div class="col-4"></div>
+			<div class="btn btn-md btn-info col-4" id="toggle-all">Toggle all</div>
+			<div class="col-4"></div>
+		</div>
+
+
+		<!-- These are diabled for now -->
+		{% if 1 == 2 %}
+		<div class="form-group row">
+			<div class="checkbox col-4">
+		        <label>
+		            <input id="register_account" name="register_account" type="checkbox" /> Register an account
+		        </label>
+			</div>
+			<div class="checkbox col-4">
+				<label>
+					<input id="login_account" name="login_account" type="checkbox" /> Login account
+				</label>
+			</div>
+		</div>
+		{% endif %}
+
+
+		<hr class="my-4">
+		<h5> Required: </h5>
+		<hr class="my-4">
+
+		<div class="form-group row">
+			<label for="allowed-domain" class="col-4 col-form-label">Allowed domain</label>
+			<div class="col-8">
+				<input class="form-control" type="text" id="allowed-domain" name="allowed-domain" placeholder="somedomain.com" required value="api3.cdsuperstore.se">
+			</div>
+		</div>
+	
+		<div class="form-group row">
+			<label for="front-page-url" class="col-4 col-form-label">Front page URL</label>
+			<div class="col-8">
+				<input class="form-control" type="text" id="front-page-url" name="front-page-url" placeholder="http://www.somedomain.com" required value="api3.cdsuperstore.se">
+			</div>
+		</div>
+
+
+		<hr class="my-4">
+		<h5> Optional: </h5>
+		<hr class="my-4">
+
+		<div class="form-group row">
+			<label for="http-user" class="col-4 col-form-label">HTTP AUTH username</label>
+			<div class="col-8">
+				<input class="form-control" type="text" id="http-user" name="http-user" placeholder="administrator" value="erik">
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<label for="http-pass" class="col-4 col-form-label">HTTP AUTH password</label>
+			<div class="col-8">
+				<input class="form-control" type="password" id="http-pass" name="http-pass" placeholder="root" value="lindow">
+			</div>
+		</div>
+
+		<!-- Rest is diabled for now -->
+		{% if 1 == 2 %}
+		<hr class="my-4">
+		<h3>BELOW NOT USED</h3>
+		<hr class="my-4">
+
+		<hr class="my-4">
+		<h5> Login </h5>
+		<hr class="my-4">
+
+		<div class="form-group row">
+			<label for="login-action-url" class="col-4 col-form-label">Login action URL</label>
+			<div class="col-8">
+				<input class="form-control" type="text" id="login-action-url" name="login-action-url" placeholder="http://www.somedomain.com/login.php?log=true">
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<label for="login-username" class="col-4 col-form-label">Username</label>
+			<div class="col-8">
+				<input class="form-control" type="text" id="login-username" name="login-username" placeholder="user123">
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<label for="login-password" class="col-4 col-form-label">Password</label>
+			<div class="col-8">
+				<input class="form-control" type="password" id="login-password" name="login-password" placeholder="ilovecats">
+			</div>
+		</div>
+
+
+		<hr class="my-4">
+		<h5> Registration </h5>
+		<hr class="my-4">
+
+		<div class="form-group row">
+			<label for="register-randomize" class="col-4 col-form-label">Randomize data</label>
+			<div class="col-8">
+				<input class="form-control" type="checkbox" id="register-randomize" name="register-randomize" placeholder="ilovecats">
+			</div>
+		</div>
+
+		<h6 class="col-4"> OR </h6>
+		<hr class="my-4">
+
+		<div class="form-group row">
+			<label for="register-action-url" class="col-4 col-form-label">Register action URL</label>
+			<div class="col-8">
+				<input class="form-control" type="text" id="register-action-url" name="register-action-url" placeholder="http://www.somedomain.com/register.php?reg=true">
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<label for="register-username" class="col-4 col-form-label">Username</label>
+			<div class="col-8">
+				<input class="form-control" type="text" id="register-username" name="register-username" placeholder="user123">
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<label for="register-password" class="col-4 col-form-label">Password</label>
+			<div class="col-8">
+				<input class="form-control" type="password" id="register-password" name="register-password" placeholder="ilovecats">
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<label for="register-firstname" class="col-4 col-form-label">Firstname</label>
+			<div class="col-8">
+				<input class="form-control" type="text" id="register-firstname" name="register-firstname" placeholder="Ahnuk">
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<label for="register-lastname" class="col-4 col-form-label">Lastname</label>
+			<div class="col-8">
+				<input class="form-control" type="text" id="register-lastname" name="register-lastname" placeholder="Jabari">
+			</div>
+		</div>
+		{% endif %}
+
+		
+
+
+
+		<button type="submit" class="btn btn-warning btn-lg col-12">Run AdvancedScan</button>
+	</form>
+
+</div>
+<!-- /ADVANCED TAB -->
+
+

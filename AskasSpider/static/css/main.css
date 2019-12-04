@@ -1,0 +1,339 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+* {
+  font-family: 'Raleway', sans-serif, serif;
+  margin: 0;
+}
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+
+body div#main-container{
+  min-height: 100%;
+  
+}
+
+.tabcontent {
+  background: #fff;
+}
+#fullscreen-bg {
+  display: block;
+  position: fixed;
+  color: #999;
+}
+
+#footer {
+  padding-top: 2rem;
+  background: #fff;
+  border-top: 2px solid #000;
+}
+
+#footer p {
+  font-size: 0.8rem;
+  color: #666;
+  text-align: center;
+  font-style: italic;
+}
+
+.drop-down-banner {
+  /* that cool green: #46D1A3 */
+  width: 100%;
+  /*border-radius: 15px; --This looked real bad when expanding */
+  height: 100%;
+}
+.drop-down-heading {
+  line-height: 75px;
+  font-size: 2em;
+  text-align: right;
+  float: right;
+  cursor: pointer;
+  /*color: #A346D1;*/
+}
+.drop-down-box {
+  display: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+@media screen and(max-width: 300px) {
+  .drop-down-box {
+    width: 100%;
+  }
+}
+
+
+
+
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.33%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+	padding-top: 8rem;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+
+
+/* TODO: NO UNDERSCORE VARIABLES FFS */
+#loader_container {
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  background: #000;
+  top:0;
+
+
+  background-image: url("../images/padlock_darkest.png");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#loader-text {
+  position: fixed;
+  color: #fff;
+  top: calc(50% + 120px);
+  text-align: center;
+  left: 0;
+  right: 0;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dot {
+  top: 50%;
+  left: calc(50% - 10px);
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  background: #46D1A3;
+  border-radius: 50%;
+}
+
+
+#top-left {
+  -webkit-animation: anim-top-left 4s infinite;
+    animation: anim-top-left 4s infinite;
+}
+
+@-webkit-keyframes anim-top-left {
+  from {transform: none}
+  25% {transform: translate(-40px, 0px)}
+  50% {transform: translate(-40px, -40px)}
+  75% {transform: translate(-40px, 40px)}
+  to {transform: none}
+}
+
+@keyframes anim-top-left {
+  from {transform: none}
+  25% {transform: translate(-40px, 0px)}
+  50% {transform: translate(-40px, -40px)}
+  75% {transform: translate(-40px, 40px)}
+  to {transform: none}
+}
+
+
+#mid-left {
+  -webkit-animation: anim-mid-left 4s infinite;
+    animation: anim-mid-left 4s infinite;
+}
+@-webkit-keyframes anim-mid-left {
+  from {transform: none}
+  25% {transform: translate(-40px, 0px)}
+  50% {transform: translate(40px, 0px)}
+  75% {transform: translate(-40px, 0px)}
+  to {transform: none}
+}
+
+@keyframes anim-mid-left {
+  from {transform: none}
+  25% {transform: translate(-40px, 0px)}
+  50% {transform: translate(40px, 0px)}
+  75% {transform: translate(-40px, 0px)}
+  to {transform: none}
+}
+
+
+#top-mid {
+  -webkit-animation: anim-top-mid 4s infinite;
+    animation: anim-top-mid 4s infinite;
+}
+@-webkit-keyframes anim-top-mid {
+  from {transform: none}
+  25% {transform: translate(0px, -40px)}
+  50% {transform: translate(0px, 40px)}
+  75% {transform: translate(0px, -40px)}
+  to {transform: none}
+}
+
+@keyframes anim-top-mid {
+  from {transform: none}
+  25% {transform: translate(0px, -40px)}
+  50% {transform: translate(0px, 40px)}
+  75% {transform: translate(0px, -40px)}
+  to {transform: none}
+}
+
+
+#bot-mid {
+  -webkit-animation: anim-bot-mid 4s infinite;
+    animation: anim-bot-mid 4s infinite;
+}
+@-webkit-keyframes anim-bot-mid {
+  from {transform: none}
+  25% {transform: translate(0px, 40px)}
+  50% {transform: translate(0px, -40px)}
+  75% {transform: translate(0px, 40px)}
+  to {transform: none}
+}
+
+@keyframes anim-bot-mid {
+  from {transform: none}
+  25% {transform: translate(0px, 40px)}
+  50% {transform: translate(0px, -40px)}
+  75% {transform: translate(0px, 40px)}
+  to {transform: none}
+}
+
+
+
+#mid-left {
+  -webkit-animation: anim-mid-left 4s infinite;
+    animation: anim-mid-left 4s infinite;
+}
+@-webkit-keyframes anim-mid-left {
+  from {transform: none}
+  25% {transform: translate(-40px, 0px)}
+  50% {transform: translate(40px, 0px)}
+  75% {transform: translate(-40px, 0px)}
+  to {transform: none}
+}
+
+@keyframes anim-mid-left {
+  from {transform: none}
+  25% {transform: translate(-40px, 0px)}
+  50% {transform: translate(40px, 0px)}
+  75% {transform: translate(-40px, 0px)}
+  to {transform: none}
+}
+
+
+#bot-left {
+  -webkit-animation: anim-bot-left 4s infinite;
+    animation: anim-bot-left 4s infinite;
+}
+@-webkit-keyframes anim-bot-left {
+  from {transform: none}
+  25% {transform: translate(-40px, 0px)}
+  50% {transform: translate(-40px, 40px)}
+  75% {transform: translate(-40px, -40px)}
+  to {transform: none}
+}
+
+@keyframes anim-bot-left {
+  from {transform: none}
+  25% {transform: translate(-40px, 0px)}
+  50% {transform: translate(-40px, 40px)}
+  75% {transform: translate(-40px, -40px)}
+  to {transform: none}
+}
+
+
+#top-right {
+  -webkit-animation: anim-top-right 4s infinite;
+    animation: anim-top-right 4s infinite;
+}
+@-webkit-keyframes anim-top-right {
+  from {transform: none}
+  25% {transform: translate(40px, 0px)}
+  50% {transform: translate(40px, -40px)}
+  75% {transform: translate(40px, 40px)}
+  to {transform: none}
+}
+
+@keyframes anim-top-right {
+  from {transform: none}
+  25% {transform: translate(40px, 0px)}
+  50% {transform: translate(40px, -40px)}
+  75% {transform: translate(40px, 40px)}
+  to {transform: none}
+}
+
+
+#mid-right {
+  -webkit-animation: anim-mid-right 4s infinite;
+    animation: anim-mid-right 4s infinite;
+}
+@-webkit-keyframes anim-mid-right {
+  from {transform: none}
+  25% {transform: translate(40px, 0px)}
+  50% {transform: translate(-40px, 0px)}
+  75% {transform: translate(40px, 0px)}
+  to {transform: none}
+}
+
+@keyframes anim-mid-right {
+  from {transform: none}
+  25% {transform: translate(40px, 0px)}
+  50% {transform: translate(-40px, 0px)}
+  75% {transform: translate(40px, 0px)}
+  to {transform: none}
+}
+
+
+#bot-right {
+  -webkit-animation: anim-bot-right 4s infinite;
+    animation: anim-bot-right 4s infinite;
+}
+@-webkit-keyframes anim-bot-right {
+  from {transform: none}
+  25% {transform: translate(40px, 0px)}
+  50% {transform: translate(40px, 40px)}
+  75% {transform: translate(40px, -40px)}
+  to {transform: none}
+}
+
+@keyframes anim-bot-right {
+  from {transform: none}
+  25% {transform: translate(40px, 0px)}
+  50% {transform: translate(40px, 40px)}
+  75% {transform: translate(40px, -40px)}
+  to {transform: none}
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+	<title>Spiderino</title>
+
+	<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/results_page.css">
+
+	<script src="../static/js/jquery-3.3.1.min.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="../static/js/results.js"></script>
+
+	<meta http-equiv="Cache-control" content="no-cache">
+</head>
+
+<body>
+
+<div id="container" class="fullpage-container">
+	<h2><a href="/">Home</a></h2>
+	<div class="jumbotron"> 
+		<h1 class="display-5">Final results for: 
+			<span class="italicized">
+				<a target="_blank" href="{{ url }}">{{ url }} <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a> 
+			</span>
+		</h1>
+		<h5>Time elapsed: {{ time }}</h5>
+		<hr class="style-six" />
+			<div class="mega center info padded">QuickScan</div>
+		<hr class="style-six" />
+		<h5> Full details below </h5>
+		<hr class="style-six" />
+		<div style="height: 25px"></div>
+		<h4>What the colors mean:</h4>
+		<div class="color-coding-container">
+			<div class="color-coding-row"><span class="color-coding-block success"></span> : Good, pat on the back</div>
+			<div class="color-coding-row"><span class="color-coding-block warning"></span> : Warning, Might want to look at this</div>
+			<div class="color-coding-row"><span class="color-coding-block error"></span> : Error, Serious problem</div>
+			<div class="color-coding-row"><span class="color-coding-block info"></span> : Info, Neither good nor bad</div>
+		</div>
+		<hr class="style-six" />
+	</div>
+
+	<div class="header">Transport Layer Security (TLS)</div>
+	<div class="content-block">
+		<ul>
+			<li>
+				{% set skip = 0 %}
+				{% if results.RedirectSpider.https_as_default == True %}
+					<div class="big center success padded">This site uses HTTPS as default</div>
+				{% else %}
+					<div class="big center error padded">This site does NOT use HTTPS as default</div>
+					{% set skip = 1 %}
+				{% endif %}
+			</li>
+			{% if skip == 0 %}
+			<span class="medium">
+			<li>Redirects:
+				<ul style="list-style:none">
+					<li>
+						<p>
+					{% for header in results.RedirectSpider.redirected_urls %}
+						{% if loop.index == 1 %}
+							{{ header }}
+						{% else %}
+							--> {{ header }}
+						{% endif %}
+					{% endfor %}
+					</p>
+				</li>
+					</ul>
+			</li>
+			<li>Number of redirects: {{ results.RedirectSpider.number_of_redirects }} </li>
+			</span>
+			{% endif %}
+
+		</ul>
+	</div>
+
+	<div class="header">Security Headers</div>
+	<div class="content-block">
+		<ul>
+			<div class="grade center-text medium padded">
+				<span>{{ results.SecurityHeadersSpider.Grade }}%</span>
+			</div>
+			<div class="margin-padded">
+				<span class="small underline">Details:</span>
+			</div>
+
+			{% for header in results.SecurityHeadersSpider if not header == 'Grade' %}
+				<li><span class="medium">{{ header }}</span> <a target="_blank" class="medium" href="{{ results.SecurityHeadersSpider[header].readmore }}">read more</a>
+					<ul class="margin-padded">
+						<li><span class="{{ results.SecurityHeadersSpider[header].status }} medium padded">
+							{{ results.SecurityHeadersSpider[header].value }} 
+							</span>
+						</li>
+						<li class="margin-padded"><span class="small">
+							{{ results.SecurityHeadersSpider[header].moreinfo }} 
+							</span>
+						</li>
+					</ul>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+
+	<div class="header">Referers</div>
+	<div class="content-block">
+		<ul class="margin-padded">
+			<li><span class="medium"> Referrer-Policy set to </span><span class="{{ results.RefererSpider.Status }} medium padded">
+				{{ results.RefererSpider.Policy }}</span></li>
+			<li><span class="medium"> {{ results.RefererSpider.Info }}</span>.</li>
+		</ul>
+		<ul>
+			<li class="medium">Why is a Referrer-Policy important?</li>
+		</ul>
+		<ul>
+			<li class="medium">
+				When a user clicks a link, the browser will send a HTTP referer header to the website which the link takes the user to. This will give the destination site the information of where the user came from.
+				If the user is reading about something that would classify as sensitive information i.e. visiting http://help.com/How-to-get-rid-of-an-STD. Then clicks a link to some other website, that site would see what that user was reading about. Then that site could potentially identify and associate him/her with having an STD.
+				Many sites loads resources from third-parties aswell, sending referrer information to all of them in the background, while the users have no clue what's happening. This could lead to sensitive data being leaked, and that's why it's important to set a Referrer-Policy to prevent this from happening.
+			</li>
+		</ul>
+	</div>
+
+
+
+	{% if results.ThirdPartyRequestSpider %}
+		<div class="header">Third-party requests</div>
+		<div class="content-block">
+			<ul>
+				{% if results.ThirdPartyRequestSpider.http > 0 %}
+					<div class="center-text warning medium padded">
+						<span>Unsecure Connections Found</span>
+					</div>
+				{% else %}
+					<div class="center-text success medium padded">
+						<span>No Unsecure Connections Found</span>
+					</div>
+				{% endif %}
+				
+				<li>{{ results.ThirdPartyRequestSpider.https }} Secure connections</li>
+				<li>{{ results.ThirdPartyRequestSpider.http }} Unsecure connections</li>
+
+				<hr class="style-six" />
+
+				<div class="margin-padded">
+					<span class="small underline">All {{ results.ThirdPartyRequestSpider.https + results.ThirdPartyRequestSpider.http }} unique third-party requests found:</span>
+				</div>
+
+				{% for tpr in results.ThirdPartyRequestSpider.Thirdpartyrequests %}
+					
+
+					{% if tpr.Url[:5] == 'https' %}
+						<li class="medium padded"> <span class="small success margin-padded padded">  (HTTPS) </span> : <span class="italicized">{{ tpr.Domain }} </span> </li>
+					{% else %}
+						<li class="medium padded"><span class="small warning margin-padded padded">  (HTTP) </span> : <span class="italicized"> {{ tpr.Domain }} </span> </li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	{% endif %}
+
+	<div class="header">Cookies</div>
+		<div class="content-block">
+			<ul>
+				<li class="medium">
+					It's easy to get confused on how GDPR will affect webbsites use of cookies. However, to make sure you are compliant you can follow these guidelines:
+				</li>
+				<li class="medium"> 
+					Let the data subject know exactly what types of cookies you’d like to use. Also, let them choose which ones they agree to. For example, there’ll be the cookies strictly necessary for the normal website functions. These cookies cannot be switched off because the website wouldn’t work properly anymore. However, these identifiers do not store any personal data. Make sure the users understands this! Moving on, there’ll be the cookies used for analytics. These are not mandatory for the website’s functionality, therefor they cannot be imposed to the data subject. If the user switches them off you won’t be able to properly monitor your website’s performance. Again, make sure the data subject understands all this, but give him the choice to switch them off.
+				</li>
+			</ul>
+		</div>
+
+
+	{% if results.FirstPartyCookies %}
+		<div class="header">First-party Cookies</div>
+		{% if not results.FirstPartyCookies.Cookies %}
+			<div class="center-text medium padded">
+				<span>No first-party cookies were found</span>
+			</div>
+		{% else %}
+
+			<div class="content-block">
+				<ul>
+			<div class="center-text warning medium padded">
+				<span>{{ results.FirstPartyCookies.Grade }}%</span>
+			</div>
+				
+					<div class="margin-padded">
+						<li class="medium"> The percentage is based on the "HttpOnly" and "secure" values for every cookie. "HttpOnly" ensures that scripting languages (ie. javascript) won't be able to get the cookie value (such as through document.cookie), which protects primary against XSS attacks. The "secure" flag ensures that the setting and transmitting of a cookie is only done in a secure manner (i.e. https).  </li>
+						 
+					</div>
+					<div class="margin-padded">
+						<span class="small underline">All first-party cookies found:</span>
+
+					</div>
+					
+					<div style="overflow: auto;">
+						<table class="table">
+						
+						<tr>
+							<th class="underline">Domain</th>
+							<th class="underline">Name</th>
+							<th class="underline">Value</th>
+							<th class="underline">HttpOnly</th>
+							<th class="underline">Secure</th>
+						</tr>
+						{% for tpc in results.FirstPartyCookies.Cookies %}
+							<tr class="tr">
+								<th class="th">{{ tpc.domain }}</th>
+								<th class="th">{{ tpc.name }}</th>
+								<th class="th">{{ tpc.value }}</th>
+								<th class="th">{{ tpc.httponly }}</th>
+								<th class="th">{{ tpc.secure }}</th>
+							</tr>
+						{% endfor %}
+						</table>
+					</div>
+				</ul>
+			</div>
+		{% endif %}
+	{% endif %}
+
+	
+
+	{% if results.ThirdPartyCookies %}		
+
+		<div class="header">Third-party Cookies</div>
+
+		{% if results.ThirdPartyCookies.Cookies %}
+			<div class="content-block" id="last-element">
+				<ul>
+					<div class="center-text warning medium padded">
+						<span>{{ results.ThirdPartyCookies.Grade }}%</span>
+					</div>
+					<div class="margin-padded">
+						<span class="small underline">All third-party cookies found:</span>
+					</div>
+
+					<div style="overflow: auto;">
+						<table class="table">
+						
+							<tr>
+								<th class="underline">Domain</th>
+								<th class="underline">Name</th>
+								<th class="underline">Value</th>
+								<th class="underline">HttpOnly</th>
+								<th class="underline">Secure</th>
+							</tr>
+						
+							{% for tpc in results.ThirdPartyCookies.Cookies %}
+								<tr class="tr">
+									<th class="th">{{ tpc.domain }}</th>
+									<th class="th">{{ tpc.name }}</th>
+									<th class="th">{{ tpc.value }}</th>
+									<th class="th">{{ tpc.httponly }}</th>
+									<th class="th">{{ tpc.secure }}</th>
+								</tr>
+							{% endfor %}
+						</table>
+					</div>
+				</ul>
+			</div>
+		{% else %}
+			<ul>
+				<div class="content-block">
+					<div class="center-text success medium padded">
+						<span> No Thirdparty Cookies Found. </span>
+					</div>
+				</div>
+			</ul>
+		{% endif %}
+	{% endif %}
+
+<!-- Just some bodged padding -->
+<div style="height: 200px"></div>
+
+
+</div> <!-- / id=container -->
+
+
+<div id="footer">
+	<p> Put some copyright or smth </p>
+	<p> and maybe some other stuff like a <a href="#">link</a></p>
+</div>
+
+
+</body>
+</html>

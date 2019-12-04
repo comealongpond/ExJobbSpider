@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+	<title>Spiderino</title>
+
+	<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/progress.css">
+
+	<script src="../static/js/jquery-3.3.1.min.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+
+
+	<meta http-equiv="Cache-control" content="no-cache">
+</head>
+
+<body>
+	<script>
+		window.onbeforeunload = function (e) {
+			$.ajax({
+				url:"/interrupt", 
+				async:false
+			});
+			
+			
+			//This return value is ignored in modern web browsers and will display their default message instead
+			//However, returning undefined means no dialog window will be shown at all
+			return undefined
+		}
+
+		var startTime = Math.floor((new Date()).getTime() / 1000); //time rn in seconds
+		function checkForNewProgressRecursively() {
+			$.ajax({
+					url: '/get_progress',
+					data: 'none',
+					type: 'GET',
+					success: function(response) {
+						d = $.parseJSON(response)
+						if(d['spider_interrupted'] == 1)
+						{
+							window.onbeforeunload = "";
+							window.location="http://localhost:5000";
+						}
+						if(d['spider_finished'] == 1)
+						{
+							window.onbeforeunload = "";
+							timeNow = Math.floor((new Date()).getTime() / 1000); //time rn in seconds
+							timeElapsed = timeNow - startTime;
+							window.location="http://localhost:5000/results?time=" + timeElapsed.toString();
+						}
+						if(d['new_progress'] == 1)
+						{
+							timeNow = Math.floor((new Date()).getTime() / 1000); //time rn in seconds
+							timeElapsed = timeNow - startTime;
+							if(timeElapsed > 60) 
+							{
+								$("#time-elapsed").html(Math.floor(timeElapsed / 60).toString() + "m " + (timeElapsed % 60).toString() + "s");
+							}
+							else
+							{
+								$("#time-elapsed").html(timeElapsed.toString() + "s");
+							}
+							
+							data = d['data'].replace("[","").replace("]","").split(',');
+							for(var i = 0; i < data.length; i++)
+							{
+								if($("#progress-" + i.toString()).length == 0)
+								{
+									
+									//$("[id^=progress-] span").removeClass("animated-dots");
+
+									$('#output').prepend("<div id=progress-" + i.toString() + " class=\"progress-line blink_me\">" + data[i].replace(/'/g,"") + "</div>");
+
+									
+								}
+								/*else if($("#progress-" + i.toString()).length != 0 && data[i].replace(/'/g,"").slice(-9) == 'finished!')
+								{
+									//alert($("#progress-" + i.toString()).html());
+									//alert(data[i].replace(/'/g,"").slice(-9));
+									
+									$("#progress-" + i.toString()).html("<div id=progress-" + i.toString() + " class=\"progress-line\">" + data[i].replace(/'/g,"") + "</div>");
+									$("[id^=progress-] span").removeClass("animated-dots");
+									BORDE INTE TA BORT KLASSEN^^^^^^^
+								}*/
+							}
+						}
+					},
+					error: function(error) {
+						$('#output').html('Failed to get progress');
+					}
+				});
+
+			//Poll the server 1 times per second to check for new progress
+			//TODO: decide what is the best timeout?
+			setTimeout(checkForNewProgressRecursively, 1000);
+		}
+
+		//Start the infinite recursive nightmarish long polling for new progress
+		checkForNewProgressRecursively();
+	</script>
+
+	<div id="container" class="flexbox">
+
+		<div class="jumbotron">
+			<h1 class="display-3">The spider is running </h1>
+			<p> If you leave or reload this page, the program will exit and all results generated so far will be destroyed.</p>
+		</div>
+
+		<div class="spinner">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+		<p>Time elapsed: <span id="time-elapsed"></span></p>
+		<h3 class="full-underline">Status:</h3>
+		
+		<div id="output-box">
+			<span id="output">
+			</span>
+		</div>
+	</div>
+
+
+</body>
+</html>

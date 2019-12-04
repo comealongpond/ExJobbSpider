@@ -1,0 +1,43 @@
+<!-- QUICKSCAN TAB -->
+<div id="quickscan-tab" class="tabcontent">
+	<form action="{{ url_for('run_quickscan') }}" method="POST" id="quickscan_form">
+
+		<h3>QuickScan Configuration</h3>
+		<hr class="my-4">
+
+
+		<h5>Required:</h5>
+		<hr class="my-4">
+
+	 	<div class="form-group row">
+			<label for="url" class="col-4 col-form-label">Url</label>
+			<div class="col-sm-8 col-md-7 col-lg-6">
+				<input class="form-control" type="text" id="url_quickscan" name="url_quickscan" placeholder="http://www.somedomain.com" required>
+			</div>
+		</div>
+
+
+		<hr class="my-4">
+		<h5>Optional:</h5>
+		<hr class="my-4">
+
+
+		<div class="form-group row">
+			<label for="http-user-qs" class="col-4 col-form-label">HTTP AUTH username</label>
+			<div class="col-sm-8 col-md-7 col-lg-6">
+				<input class="form-control" type="text" id="http-user-qs" name="http-user-qs" placeholder="administrator">
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<label for="http-pass-qs" class="col-4 col-form-label">HTTP AUTH password</label>
+			<div class="col-sm-8 col-md-7 col-lg-6">
+				<input class="form-control" type="password" id="http-pass-qs" name="http-pass-qs" placeholder="root">
+			</div>
+		</div>
+
+
+		<button type="submit" class="btn btn-info btn-lg col-12" id="quickscan_submit_btn">Run QuickScan</button>
+	</form>
+<!-- /QUICKSCAN TAB -->
+</div>

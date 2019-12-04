@@ -1,0 +1,160 @@
+* {
+	color: #fff;
+}
+
+
+ul {
+	list-style: none;
+}
+
+.fullpage-container {
+	background: #232b2b;
+}
+
+.jumbotron {
+	background: transparent;
+}
+
+
+#last-element {
+	padding-bottom: 5rem;
+}
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.header {
+	font-size: 2rem;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	clear: both;
+}
+
+.center {
+	margin: auto;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.content-block {
+	padding: 0;
+	margin: 0;
+	margin-right: 5%;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.list-indent {
+	margin-left: 20px;
+}
+.padded {
+	padding: 0.5rem;
+}
+
+.margin-padded {
+	margin-top: 0.5rem;
+	margin-bottom: 2rem;
+}
+
+.blue {
+	color: #6ABED8;
+}
+
+.italicized {
+  	font-style: italic;
+}
+
+.half-text {
+	font-size: 0.5rem;
+}
+
+.center {
+	text-align: center;
+}
+
+.giga {
+	font-size: 3rem;
+}
+
+.mega {
+	font-size: 2rem;
+}
+
+.big {
+	font-size: 1.5rem;
+}
+
+.medium {
+	font-size: 1.25rem;
+}
+
+.small {
+	font-size: 1rem;	
+}
+
+.mini {
+	font-size: 0.8rem;
+}
+.color-coding-block {
+	display: inline-block;
+	width: 80px;
+	height: 1rem;
+}
+
+.color-coding-row{
+	display: block;
+	font-size: 1rem;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.error {
+	background: #CC2E2E;
+}
+
+.warning {
+	background: #CC7700;
+}
+
+.success, .good {
+	background: #2E9C26;
+}
+
+.info {
+	background: #6CAAD8;
+}
+
+.overflow-dots {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+table {
+	display: block;
+	width: 100%;
+	table-layout: fixed;
+	text-overflow: ellipsis;
+	border-spacing: 6px;
+
+}
+
+th {
+
+	max-width: 20%;
+	min-width: 20%;
+	overflow: hidden;
+}
+

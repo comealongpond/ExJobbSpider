@@ -1,0 +1,112 @@
+[
+  {
+    "domain": "api3.cdsuperstore.se",
+    "expires": "tors, 31 dec 2020 12:00:00 GMT",
+    "expiry": 1609416000,
+    "httponly": false,
+    "name": "ARTGRP",
+    "path": "/",
+    "secure": false,
+    "value": ""
+  },
+  {
+    "domain": "api3.cdsuperstore.se",
+    "expires": "tors, 31 dec 2020 12:00:00 GMT",
+    "expiry": 1609416000,
+    "httponly": false,
+    "name": "GEO",
+    "path": "/",
+    "secure": false,
+    "value": "1520529436"
+  },
+  {
+    "domain": "api3.cdsuperstore.se",
+    "expires": "tors, 31 dec 2020 12:00:00 GMT",
+    "expiry": 1609416000,
+    "httponly": false,
+    "name": "VALUTA",
+    "path": "/",
+    "secure": false,
+    "value": "SEK"
+  },
+  {
+    "domain": "api3.cdsuperstore.se",
+    "expires": "tors, 31 dec 2020 12:00:00 GMT",
+    "expiry": 1609416000,
+    "httponly": false,
+    "name": "SPRAK",
+    "path": "/",
+    "secure": false,
+    "value": "SV"
+  },
+  {
+    "domain": "api3.cdsuperstore.se",
+    "expires": "tors, 31 dec 2020 12:00:00 GMT",
+    "expiry": 1609416000,
+    "httponly": false,
+    "name": "VISADE",
+    "path": "/",
+    "secure": false,
+    "value": ""
+  },
+  {
+    "domain": "api3.cdsuperstore.se",
+    "expires": "tors, 31 dec 2020 12:00:00 GMT",
+    "expiry": 1609416000,
+    "httponly": false,
+    "name": "MOMS",
+    "path": "/",
+    "secure": false,
+    "value": "inkl%2E"
+  },
+  {
+    "domain": "api3.cdsuperstore.se",
+    "expires": "tors, 31 dec 2020 12:00:00 GMT",
+    "expiry": 1609416000,
+    "httponly": false,
+    "name": "VER_AD",
+    "path": "/",
+    "secure": false,
+    "value": "0"
+  },
+  {
+    "domain": "api3.cdsuperstore.se",
+    "expires": "tors, 31 dec 2020 12:00:00 GMT",
+    "expiry": 1609416000,
+    "httponly": false,
+    "name": "SESS",
+    "path": "/",
+    "secure": false,
+    "value": "1520518636tsDO137721277PMeI"
+  },
+  {
+    "domain": "api3.cdsuperstore.se",
+    "expires": "tors, 31 dec 2020 12:00:00 GMT",
+    "expiry": 1609416000,
+    "httponly": false,
+    "name": "id",
+    "path": "/",
+    "secure": false,
+    "value": "0"
+  },
+  {
+    "domain": "api3.cdsuperstore.se",
+    "expires": "tors, 31 dec 2020 12:00:00 GMT",
+    "expiry": 1609416000,
+    "httponly": false,
+    "name": "IBUTB",
+    "path": "/",
+    "secure": false,
+    "value": "0"
+  },
+  {
+    "domain": "api3.cdsuperstore.se",
+    "expires": "tors, 31 dec 2020 12:00:00 GMT",
+    "expiry": 1609416000,
+    "httponly": false,
+    "name": "IBUTA",
+    "path": "/",
+    "secure": false,
+    "value": "0"
+  }
+]
